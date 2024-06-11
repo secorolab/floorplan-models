@@ -1,9 +1,9 @@
 {
     "@context": [
         {
-            "floorplan": "https://hbrs-sesame.github.io/metamodels/floorplan#"
+            "floorplan": "https://secorolab.github.io/metamodels/floorplan#"
         },
-        "https://hbrs-sesame.github.io/metamodels/floor-plan/floor-plan.json"
+        "https://secorolab.github.io/metamodels/floor-plan/floor-plan.json"
     ],
     "@graph": [
         {

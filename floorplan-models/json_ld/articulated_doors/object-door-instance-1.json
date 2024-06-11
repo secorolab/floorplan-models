@@ -1,18 +1,18 @@
 {
     "@context": [
         {
-            "door": "https://hbrs-sesame.github.io/models/door#",
+            "door": "https://secorolab.github.io/models/door#",
             "geom": "https://comp-rob2b.github.io/metamodels/geometry/structural-entities#",
-            "floorplan": "https://hbrs-sesame.github.io/metamodels/floorplan#"
+            "floorplan": "https://secorolab.github.io/metamodels/floorplan#"
         },
         "https://comp-rob2b.github.io/metamodels/geometry/spatial-relations.json",
         "https://comp-rob2b.github.io/metamodels/geometry/structural-entities.json",
         "https://comp-rob2b.github.io/metamodels/geometry/coordinates.json",
-        "https://hbrs-sesame.github.io/metamodels/floor-plan/object.json",
-        "https://hbrs-sesame.github.io/metamodels/geometry/polytope.json",
-        "https://hbrs-sesame.github.io/metamodels/floor-plan/state.json",
+        "https://secorolab.github.io/metamodels/floor-plan/object.json",
+        "https://secorolab.github.io/metamodels/geometry/polytope.json",
+        "https://secorolab.github.io/metamodels/floor-plan/state.json",
         "https://comp-rob2b.github.io/metamodels/qudt.json",
-        "https://hbrs-sesame.github.io/metamodels/geometry/coordinate-extension.json"
+        "https://secorolab.github.io/metamodels/geometry/coordinate-extension.json"
     ],
     "@graph": [
         {
