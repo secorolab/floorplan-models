@@ -43,8 +43,8 @@
                 "M",
                 "degrees"
             ],
-            "theta": -90.0,
-            "x": 20.50,
+            "theta": 90.0,
+            "x": 21.48,
             "y": 0.1,
             "z": 0.0
         },
@@ -53,7 +53,7 @@
             "@type": "ObjectInstance",
             "frame": "geom:frame-location-door-1",
             "of-object": "door:door",
-            "world": "floorplan:brsu_building_c_with_doorways",
+            "world": "floorplan:icra_brsu_building_c_level_3b",
             "start-state": "door:door-partially-opened"
         },
         {
