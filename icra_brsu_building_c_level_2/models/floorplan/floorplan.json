@@ -969,7 +969,7 @@
             "shape": "polytope:polygon-classroom_c018"
         },
         {
-            "@id": "floorplan:icra_brsu_building_c_level_2",
+            "@id": "floorplan:icra_brsu_building_c_level_2_map",
             "@type": "FloorPlan",
             "spaces": [
                 "floorplan:space-stairway_room_center",
