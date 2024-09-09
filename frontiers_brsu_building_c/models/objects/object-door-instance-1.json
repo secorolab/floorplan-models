@@ -8,8 +8,8 @@
         "https://comp-rob2b.github.io/metamodels/geometry/spatial-relations.json",
         "https://comp-rob2b.github.io/metamodels/geometry/structural-entities.json",
         "https://comp-rob2b.github.io/metamodels/geometry/coordinates.json",
-        "http://localhost:8000/floor-plan/object.json",
-        "http://localhost:8000/floor-plan/plugin.json",
+        "https://secorolab.github.io/metamodels/floor-plan/object.json",
+        "https://secorolab.github.io/metamodels/floor-plan/plugin.json",
         "https://secorolab.github.io/metamodels/geometry/polytope.json",
         "https://secorolab.github.io/metamodels/floor-plan/state.json",
         "https://comp-rob2b.github.io/metamodels/qudt.json",
@@ -57,9 +57,9 @@
             "world": "floorplan:frontiers_brsu_building_c",
             "plugins": [
                 {
-	                "@id": "pl:door-opened-to-closed-adversarial-plugin",
-	                "distance": "0.9"
-	            },
+		    "@id": "pl:door-opened-to-closed-adversarial-plugin",
+		    "distance": "0.9"
+	        },
                 {
                     "@id": "pl:door-dynamic-plugin",
                     "uri": "testURI"
