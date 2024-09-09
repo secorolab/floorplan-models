@@ -1,0 +1,30 @@
+{
+    "@context": [
+        {
+            "pl": "https://secorolab.github.io/metamodels/plugin#",
+	    "door": "https://secorolab.github.io/models/door#"
+        },
+        "https://secorolab.github.io/metamodels/floor-plan/object.json",
+        "https://secorolab.github.io/metamodels/floor-plan/plugin.json"
+    ],
+    "@graph": [
+        {
+            "@id": "pl:door-fully-opened-init-plugin",
+            "@type": "PluginConfiguration",
+            "plugin-type": "initial",
+            "state": "door:door-fully-opened"
+        },
+        {
+            "@id": "pl:door-partially-opened-init-plugin",
+            "@type": "PluginConfiguration",
+            "plugin-type": "initial",
+            "state": "door:door-partially-opened"
+        },
+        {
+            "@id": "pl:door-fully-closed-init-plugin",
+            "@type": "PluginConfiguration",
+            "plugin-type": "initial",
+            "state": "door:door-fully-opened"
+        }
+    ]
+}   

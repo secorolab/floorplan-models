@@ -1,0 +1,48 @@
+{
+    "@context": [
+        {
+            "pl": "https://secorolab.github.io/metamodels/plugin#",
+	    "door": "https://secorolab.github.io/models/door#"
+        },
+        "https://secorolab.github.io/metamodels/floor-plan/object.json",
+        "https://secorolab.github.io/metamodels/floor-plan/plugin.json"
+    ],
+    "@graph": [
+        {
+            "@id": "pl:door-opened-to-closed-adversarial-plugin",
+            "@type": "PluginConfiguration",
+            "plugin-type": "adversarial",
+            "transition": "door:transition-from-door-fully-opened-to-door-fully-closed"
+        },
+        {
+            "@id": "pl:door-closed-to-opened-adversarial-plugin",
+            "@type": "PluginConfiguration",
+            "plugin-type": "adversarial",
+            "transition": "door:transition-from-door-fully-closed-to-door-fully-opened"
+        },
+        {
+            "@id": "pl:door-closed-to-partially-adversarial-plugin",
+            "@type": "PluginConfiguration",
+            "plugin-type": "adversarial",
+            "transition": "door:transition-from-door-fully-closed-to-door-partially-opened"
+        },
+        {
+            "@id": "pl:door-partially-to-closed-adversarial-plugin",
+            "@type": "PluginConfiguration",
+            "plugin-type": "adversarial",
+            "transition": "door:transition-from-door-partially-opened-to-door-fully-closed"
+        },
+        {
+            "@id": "pl:door-partially-to-opened-adversarial-plugin",
+            "@type": "PluginConfiguration",
+            "plugin-type": "adversarial",
+            "transition": "door:transition-from-door-partially-opened-to-door-fully-opened"
+        },
+        {
+            "@id": "pl:door-opened-to-partially-adversarial-plugin",
+            "@type": "PluginConfiguration",
+            "plugin-type": "adversarial",
+            "transition": "door:transition-from-door-fully-opened-to-door-partially-opened"
+        }
+    ]
+}   
